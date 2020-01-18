@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskInfoFragment">
+
+    <TextView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="@string/titleText"
+        android:gravity="clip_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/titleTextView"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/descText"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:id="@+id/descTextView"
+        android:layout_alignRight="@+id/titleTextView"
+        android:layout_alignStart="@+id/titleTextView"
+        android:layout_alignLeft="@+id/titleTextView"
+        android:layout_alignEnd="@+id/titleTextView"
+        android:layout_below="@+id/titleTextView"/>
+
+</RelativeLayout>
